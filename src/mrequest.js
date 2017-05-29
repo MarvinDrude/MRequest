@@ -40,7 +40,6 @@ var MReq = { };
 
         var req = new XMLHttpRequest();
         req.open(options.type, options.url, true);
-        req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         req.onload = function() {
 
